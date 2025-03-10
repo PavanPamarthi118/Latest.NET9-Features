@@ -48,26 +48,26 @@ foreach (var item in courseWatchTime)
 
 //New method CountBy
 
-//foreach (var item in CompletedLesson.CountBy(x=>x.LessonId))
-//{
-//    Console.WriteLine($"Lession ID: {item.Key} was watched - {item.Value} times");
-//}
+foreach (var item in completedLessons.CountBy(x => x.LessonId))
+{
+    Console.WriteLine($"Lession ID: {item.Key} was watched - {item.Value} times");
+}
 record CompletedLesson(long CourseId, long LessonId, long LessonDurationInSeconds);
 
 
-//Why is .AggregateBy() Better ?
+/*Why is .AggregateBy() Better ?
 
-//1.More Efficient:
-//.AggregateBy() is optimized for performance and avoids creating unnecessary intermediate collections, making it faster and more memory-efficient.
-//GroupBy().Select() creates an additional grouping structure that takes extra processing time.
+1.More Efficient:
+.AggregateBy() is optimized for performance and avoids creating unnecessary intermediate collections, making it faster and more memory - efficient.
+GroupBy().Select() creates an additional grouping structure that takes extra processing time.
 
-//2. More Readable & Concise:
-//.AggregateBy() directly expresses "Group and Sum" logic in a single call.
-//No need for .GroupBy() and then a separate.Select(), making it easier to understand.
+2.More Readable & Concise:
+.AggregateBy() directly expresses "Group and Sum" logic in a single call.
+No need for .GroupBy() and then a separate.Select(), making it easier to understand.
 
-//3. Thread - Safe & Parallelizable:
-//.AggregateBy() works well in multi - threaded or parallel processing scenarios, as it avoids additional collection overhead.
+3.Thread - Safe & Parallelizable:
+.AggregateBy() works well in multi - threaded or parallel processing scenarios, as it avoids additional collection overhead.
 
-//Less Garbage Collection Pressure:
-//.GroupBy() creates additional objects(IEnumerable, Lookup structures) that can increase GC pressure.
-//.AggregateBy() directly aggregates into a dictionary - like structure, reducing memory overhead.
+Less Garbage Collection Pressure:
+.GroupBy() creates additional objects(IEnumerable, Lookup structures) that can increase GC pressure.
+.AggregateBy() directly aggregates into a dictionary - like structure, reducing memory overhead.*/

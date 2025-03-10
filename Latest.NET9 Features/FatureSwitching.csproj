@@ -9,7 +9,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<RuntimeHostConfigurationOption Include="Feature.IsEnabled" Value="true" Trim="true" />
+		<RuntimeHostConfigurationOption Include="Feature.IsEnabled" Value="false" Trim="true" />
 	</ItemGroup>
 </Project>
 
