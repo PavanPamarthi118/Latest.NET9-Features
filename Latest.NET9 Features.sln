@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONStuff", "JSONStuff\JSON
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstarctClass", "AbstarctClass\AbstarctClass.csproj", "{5F5C0DE9-473C-4D27-8997-38CA3787A5D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{26324E06-BDAF-4DC9-92BE-E4CF3F088989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{5F5C0DE9-473C-4D27-8997-38CA3787A5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F5C0DE9-473C-4D27-8997-38CA3787A5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F5C0DE9-473C-4D27-8997-38CA3787A5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26324E06-BDAF-4DC9-92BE-E4CF3F088989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26324E06-BDAF-4DC9-92BE-E4CF3F088989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26324E06-BDAF-4DC9-92BE-E4CF3F088989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26324E06-BDAF-4DC9-92BE-E4CF3F088989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
