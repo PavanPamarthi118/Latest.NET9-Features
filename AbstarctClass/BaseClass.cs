@@ -18,3 +18,7 @@ namespace AbstarctClass
         }
     }
 }
+
+//🚀 When Should I Use an Abstract Class?
+//✅ When you want some shared implementation but also want to force derived classes to implement specific behaviors.
+//✅ When you don’t want to allow object creation of the base class.
